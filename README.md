@@ -13,6 +13,8 @@ This application has the following disadvantages:
 1. We had to remove spaces from the header (first line) of the csv file (In C #, you can write an algorithm that can read and identify records, but due to the small scale this is not required).
 2. In the csv file, when writing back data from sql, empty lines are not set, since when sorting empty values ​​are grouped first, the header (first line) will simply be removed from the main content.
 
+When downloading from the repository, it is recommended to run from the desktop.
+
 Создать Windows-приложение в Visual Studio, обеспечивающее чтение содержимого CSV-файла (файл с разделителями) и запись данных в таблицу данных MSSQL. Также выполнить обратную операцию MSSQL -> CSV c сортировкой по полю TagName.
  
 Пример содержимого файла csv(содержимое выделено красным):
@@ -27,3 +29,4 @@ Boiler.T1.SP,  Int, 83
 2.	В csv-файле при обратной записи данных из sql не ставятся пустые строки, ввиду того что при сортировке пустые значения группируются первыми заголовок (первая строка) просто будет отдалена от основного содержания.
 
 
+При скачивании из репозитория рекомедуется запускать с рабочего стола.
